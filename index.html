@@ -1,11 +1,61 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dein Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Elia Emanuel Aeby</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis ab fugit qui soluta, expedita tempora assumenda mollitia. Enim tempora excepturi placeat, doloremque vel ea dolores facere, aliquid magnam accusamus quae!</p>
+    <header>
+        <nav>
+            <h1>Dein Name</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="hero">
+            <h2>Willkommen auf meiner Portfolio-Website!</h2>
+            <p>Hier findest du eine Auswahl meiner Arbeiten.</p>
+            <button onclick="scrollToSection('portfolio')">Mehr sehen</button>
+        </section>
+    </header>
+
+    <main>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <!-- Beispielprojekte -->
+                <div class="project">Projekt 1</div>
+                <div class="project">Projekt 2</div>
+                <div class="project">Projekt 3</div>
+                <!-- Weitere Projekte hinzufügen -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Ich bin ein aufstrebender Künstler mit einer Leidenschaft für moderne und stylische Kunst.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Nachricht" required></textarea>
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dein Name. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

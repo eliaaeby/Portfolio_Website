@@ -82,3 +82,4 @@ function fetchAareInfo() {
 
 // API-Aufruf bei Seitenladung
 document.addEventListener('DOMContentLoaded', fetchAareInfo);
+

@@ -54,14 +54,14 @@ p {
   color: var(--secondary-color-2);
 }
 
-/* TRANSITION */
+/* Transition */
 
 a,
 .btn {
   transition: all 300ms ease;
 }
 
-/* DESKTOP NAV */
+/* Desktop Nav */
 
 nav,
 .nav-links {
@@ -113,7 +113,7 @@ nav a:hover {
   cursor: default;
 }
 
-/* HAMBURGER MENU */
+/* Hamburger Menu */
 
 #hamburger-nav {
   display: none;
@@ -193,7 +193,7 @@ nav a:hover {
   transform: none;
 }
 
-/* SECTIONS */
+/* Sections */
 
 section {
   padding-top: 4vh;
@@ -207,7 +207,7 @@ section {
   display: flex;
 }
 
-/* PROFILE SECTION */
+/* Profile Section */
 
 #profile {
   display: flex;
@@ -254,14 +254,14 @@ section {
   gap: 1rem;
 }
 
-/* ICONS */
+/* Icons */
 
 .icon {
   cursor: pointer;
   height: 2rem;
 }
 
-/* BUTTONS */
+/* Buttons */
 
 .btn-container {
   display: flex;
@@ -311,7 +311,7 @@ section {
   gap: 1rem;
 }
 
-/* ABOUT SECTION */
+/* About Section */
 
 .highlight-box {
   border: var(--button-border);
@@ -417,7 +417,7 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* Experience Section */
 
 #experience {
   position: relative;
@@ -456,7 +456,7 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS SECTION */
+/* Projects Section */
 
 #projects {
   position: relative;
@@ -483,7 +483,7 @@ article .icon {
   border-color: var(--container-border);
 }
 
-/* CONTACT */
+/* Contact */
 
 #contact {
   display: flex;
@@ -523,7 +523,7 @@ article .icon {
   height: 2.5rem;
 }
 
-/* FOOTER SECTION */
+/* Footer Section */
 
 footer {
   height: 26vh;
